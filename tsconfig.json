@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "lib": ["esnext"],
+        "declaration": true,
+        "noEmit": true
+    },
+    "tstl": {
+        "buildMode": "library"
+    }
+}
