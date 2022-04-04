@@ -1,0 +1,37 @@
+type tResponseCode = number & { _ngx_tResponseCode: never };
+interface ResponseCodeConstants {
+    readonly HTTP_OK: tResponseCode;
+    readonly HTTP_CREATED: tResponseCode;
+    readonly HTTP_ACCEPTED: tResponseCode;
+    readonly HTTP_NO_CONTENT: tResponseCode;
+    readonly HTTP_PARTIAL_CONTENT: tResponseCode;
+    readonly HTTP_SPECIAL_RESPONSE: tResponseCode;
+    readonly HTTP_MOVED_PERMANENTLY: tResponseCode;
+    readonly HTTP_MOVED_TEMPORARILY: tResponseCode;
+    readonly HTTP_SEE_OTHER: tResponseCode;
+    readonly HTTP_NOT_MODIFIED: tResponseCode;
+    readonly HTTP_TEMPORARY_REDIRECT: tResponseCode;
+    readonly HTTP_PERMANENT_REDIRECT: tResponseCode;
+    readonly HTTP_BAD_REQUEST: tResponseCode;
+    readonly HTTP_UNAUTHORIZED: tResponseCode;
+    readonly HTTP_PAYMENT_REQUIRED: tResponseCode;
+    readonly HTTP_FORBIDDEN: tResponseCode;
+    readonly HTTP_NOT_FOUND: tResponseCode;
+    readonly HTTP_NOT_ALLOWED: tResponseCode;
+    readonly HTTP_NOT_ACCEPTABLE: tResponseCode;
+    readonly HTTP_REQUEST_TIMEOUT: tResponseCode;
+    readonly HTTP_CONFLICT: tResponseCode;
+    readonly HTTP_GONE: tResponseCode;
+    readonly HTTP_UPGRADE_REQUIRED: tResponseCode;
+    readonly HTTP_TOO_MANY_REQUESTS: tResponseCode;
+    readonly HTTP_CLOSE: tResponseCode;
+    readonly HTTP_ILLEGAL: tResponseCode;
+    readonly HTTP_INTERNAL_SERVER_ERROR: tResponseCode;
+    readonly HTTP_NOT_IMPLEMENTED: tResponseCode;
+    readonly HTTP_METHOD_NOT_IMPLEMENTED: tResponseCode;
+    readonly HTTP_BAD_GATEWAY: tResponseCode;
+    readonly HTTP_SERVICE_UNAVAILABLE: tResponseCode;
+    readonly HTTP_GATEWAY_TIMEOUT: tResponseCode;
+    readonly HTTP_VERSION_NOT_SUPPORTED: tResponseCode;
+    readonly HTTP_INSUFFICIENT_STORAGE: tResponseCode;
+}
