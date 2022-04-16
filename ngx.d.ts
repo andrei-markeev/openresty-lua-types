@@ -7,6 +7,7 @@
 /// <reference path="./ngx.request.d.ts" />
 /// <reference path="./ngx.shared.d.ts" />
 /// <reference path="./ngx.var.d.ts" />
+/// <reference path="./cjson.d.ts" />
 
 declare const ngx: NgxModule;
 
