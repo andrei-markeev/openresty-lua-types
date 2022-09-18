@@ -1,6 +1,6 @@
 {
   "name": "openresty-lua-types",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "Typescript types for openresty (ngx_http_lua_module), designed to be used with TypeScriptToLua",
   "types": "ngx",
   "scripts": {
@@ -16,6 +16,6 @@
   "author": "andrei-markeev",
   "license": "ISC",
   "dependencies": {
-    "lua-types": "^2.11.0"
+    "@typescript-to-lua/language-extensions": "^1.0.0"
   }
 }

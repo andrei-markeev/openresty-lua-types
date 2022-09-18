@@ -1,4 +1,4 @@
-/// <reference types="typescript-to-lua/language-extensions" />
+/// <reference types="@typescript-to-lua/language-extensions" />
 /// <reference path="./constants/exitcodes.d.ts" />
 /// <reference path="./constants/requestmethods.d.ts" />
 /// <reference path="./constants/responsecodes.d.ts" />
