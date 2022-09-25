@@ -7,6 +7,7 @@
 /// <reference path="./ngx.request.d.ts" />
 /// <reference path="./ngx.shared.d.ts" />
 /// <reference path="./ngx.var.d.ts" />
+/// <reference path="./ngx.timer.d.ts" />
 /// <reference path="./cjson.d.ts" />
 
 declare const ngx: NgxModule;
@@ -351,4 +352,5 @@ interface NgxModule extends ExitCodeConstants, RequestMethodConstants, ResponseC
     req: NgxRequest;
     shared: { [key: string]: NgxSharedDict<any> };
     location: NgxLocation;
+    timer: NgxTimer;
 }
