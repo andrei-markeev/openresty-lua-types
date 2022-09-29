@@ -1,4 +1,5 @@
-type NgxTimerCallback = (premature: boolean, ...userargs: any[]) => void;
+type NgxTimerCallback = (this: void, premature: boolean, ...userargs: any[]) => void;
+/** @noSelf */
 interface NgxTimer {
     /** Creates an Nginx timer with a user callback function as well as optional user arguments. */
     at: (delayInSeconds: number, callback: NgxTimerCallback, ...userargs: any[]) => LuaMultiReturn<[boolean, string | undefined]>;
