@@ -57,4 +57,5 @@ interface NgxVar {
     readonly http_host: string | null;
     readonly http_user_agent: string | null;
     readonly http_cookie: string | null;
+    readonly http_origin: string | null;
 }
